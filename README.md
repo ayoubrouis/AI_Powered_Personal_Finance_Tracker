@@ -53,18 +53,21 @@ Personal_Finance_Tracker/
 ### Backend Setup
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd Personal_Finance_Tracker
    ```
 
 2. Set up Python virtual environment:
+
    ```bash
    cd backend
    python -m venv venv
    ```
 
 3. Activate the virtual environment:
+
    - Windows:
      ```bash
      .\venv\Scripts\activate
@@ -75,27 +78,32 @@ Personal_Finance_Tracker/
      ```
 
 4. Install Python dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 5. Set up environment variables:
+
    ```bash
    cp .env.example .env
    # Edit .env file with your configurations
    ```
 
 6. Run database migrations:
+
    ```bash
    python manage.py migrate
    ```
 
 7. Create a superuser (optional):
+
    ```bash
    python manage.py createsuperuser
    ```
 
 8. Initialize sample data (optional):
+
    ```bash
    python manage.py init_sample_data
    ```
@@ -108,16 +116,19 @@ Personal_Finance_Tracker/
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
+
    ```bash
    cd frontend/FinanceTrackerApp
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm start
    ```
@@ -139,11 +150,13 @@ Personal_Finance_Tracker/
 ### Git Workflow
 
 1. Create a new branch for each feature/bugfix:
+
    ```bash
    git checkout -b feature/feature-name
    ```
 
 2. Make your changes and commit with clear messages:
+
    ```bash
    git add .
    git commit -m "feat: add feature description"
@@ -158,6 +171,7 @@ Personal_Finance_Tracker/
 
 - Write unit tests for new features
 - Run tests before committing:
+
   ```bash
   # Backend tests
   python manage.py test

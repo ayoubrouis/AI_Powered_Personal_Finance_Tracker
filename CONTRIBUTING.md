@@ -1,6 +1,6 @@
 # Contributing to AI-Powered Personal Finance Tracker
 
-First off, thank you for considering contributing to this project! 
+First off, thank you for considering contributing to this project!
 
 ## Code of Conduct
 
@@ -54,11 +54,11 @@ Enhancement suggestions are tracked as GitHub issues. When you are creating an e
 - Limit the first line to 72 characters or less
 - Reference issues and pull requests liberally after the first line
 - Consider starting the commit message with an applicable emoji:
-    - 🎨 `:art:` when improving the format/structure of the code
-    - 🐎 `:racehorse:` when improving performance
-    - 📝 `:memo:` when writing docs
-    - 🐛 `:bug:` when fixing a bug
-    - 🔥 `:fire:` when removing code or files
+  - 🎨 `:art:` when improving the format/structure of the code
+  - 🐎 `:racehorse:` when improving performance
+  - 📝 `:memo:` when writing docs
+  - 🐛 `:bug:` when fixing a bug
+  - 🔥 `:fire:` when removing code or files
 
 ### Python Styleguide
 
